@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Scholarships</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Browse Scholarships</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="scholarships.html">Browse Scholarships</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="filter">
+        <input type="text" id="search" placeholder="Search scholarships...">
+        <select id="category">
+            <option value="all">All Categories</option>
+            <option value="engineering">Engineering</option>
+            <option value="medical">Medical</option>
+            <option value="arts">Arts</option>
+            <option value="business">Business</option>
+        </select>
+    </section>
+
+    <section id="scholarship-list">
+        <!-- Scholarships will be dynamically added here -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
